@@ -1,0 +1,11 @@
+<hello name="{{ name }}"></hello>
+<p>
+  Start editing to see some magic happen :)
+</p>
+<div class="todoContainer">
+  <div class="todo" *ngFor="let item of todoList$ | async">
+    <h3>User ID: {{item.userId}}</h3>
+    <h3>Todo Title: {{item.title}}</h3>
+    <h3>Status: {{item.completed ? 'Complete' : 'In-Complete'}}</h3>
+  </div>
+</div>

@@ -1,0 +1,15 @@
+p {
+  font-family: Lato;
+}
+.todoContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr 1fr;
+  gap: 20px;
+}
+.todoContainer .todo {
+  padding: 25px;
+  border: 2px solid black;
+  border-radius: 5px;
+  text-align: center;
+}
